@@ -1,0 +1,11 @@
+baselines:
+char, word
+enddec
+
+competing sys:
+neural checklist
+
+my sys:
+attention model for ings to events ✓
+predict for ings amounts ✓
+seq2seq events to sentences ✓
