@@ -1,5 +1,6 @@
-TYPE=$1
+FROM=$1
+TO=$2
 echo extracting rows...
-cat ing2${TYPE}.sm | cut -f 1 | sort | uniq >ing2${TYPE}.rows
+cat ${FROM}2${TO}.sm | cut -f 1 | sort | uniq >${FROM}2${TO}.rows
 echo extracting cols...
-cat ing2${TYPE}.sm | cut -f 2 | sort | uniq >ing2${TYPE}.cols
+cat ${FROM}2${TO}.sm | cut -f 2 | sort | uniq >${FROM}2${TO}.cols
