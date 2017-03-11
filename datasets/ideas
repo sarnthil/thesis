@@ -1,0 +1,23 @@
+IDEAS (tasks):
+
+Evaluables:
+
+1. Predict amounts per list of ingredients
+2. Predict category per recipe
+3. Predict servings per given list of true ingredients + amounts
+
+Sort of evaluable:
+1. ?
+2. generate name of recipe per given list of ingredients
+def as_stream(corpus):
+	for recipe in corpus:
+		content = recipe['instructions']
+		metadata = {
+             'title': recipe['name'],
+             'yields': recipe['recipeYield']ef fix_ing(ings):
+🐐  ~/NYC> less mmf2jsonl.py                                                     │    listofdicts = []
+🐐  ~/NYC> scp NYC+openrecipes.jsonl drop:~/                                     │,
+             }
+        yield content
+
+
